@@ -1,0 +1,6 @@
+rootProject.name = "ISS_TEATRU"
+include 'Domain'
+include 'ClientFX'
+include 'Persistence'
+include 'Service'
+

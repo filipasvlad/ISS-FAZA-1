@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.RezervaLocuri">
+   <children>
+      <Button fx:id="l1" layoutX="295.0" layoutY="176.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="1" />
+      <Button fx:id="l2" layoutX="355.0" layoutY="176.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="2" />
+      <Button fx:id="l3" layoutX="416.0" layoutY="176.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="3" />
+      <Button fx:id="l4" layoutX="477.0" layoutY="176.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="4" />
+      <Button fx:id="l5" layoutX="295.0" layoutY="235.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="5" />
+      <Button fx:id="l6" layoutX="355.0" layoutY="235.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="6" />
+      <Button fx:id="l7" layoutX="416.0" layoutY="235.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="7" />
+      <Button fx:id="l8" layoutX="477.0" layoutY="235.0" mnemonicParsing="false" onAction="#coloreaza" prefHeight="47.0" prefWidth="49.0" text="8" />
+      <Button fx:id="butonRezerva" layoutX="357.0" layoutY="318.0" mnemonicParsing="false" onAction="#rezerva" prefHeight="38.0" prefWidth="108.0" text="Rezerva Locuri" />
+      <Label layoutX="321.0" layoutY="34.0" text="SCENA">
+         <font>
+            <Font size="58.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="comboData" layoutX="40.0" layoutY="85.0" onAction="#dataAleasa" prefWidth="150.0" />
+      <ComboBox fx:id="comboSpectacol" layoutX="41.0" layoutY="158.0" prefWidth="150.0" />
+      <Button fx:id="butonCauta" layoutX="39.0" layoutY="223.0" mnemonicParsing="false" onAction="#cauta" prefHeight="17.0" prefWidth="150.0" text="Cauta" />
+      <Label layoutX="101.0" layoutY="60.0" text="Data" />
+      <Label layoutX="91.0" layoutY="135.0" text="Spectacol" />
+      <Line endX="14.0" endY="-191.0" layoutX="223.0" layoutY="204.0" startX="14.0" startY="181.0" />
+      <Line endX="73.0" endY="117.0" layoutX="238.0" layoutY="14.0" startX="19.0" startY="2.0" />
+      <Line endX="196.0" endY="-0.292877197265625" layoutX="312.0" layoutY="132.0" startX="-0.29290771484375" startY="-0.292877197265625" />
+      <Line endX="70.0" endY="-111.0" layoutX="481.0" layoutY="128.0" startX="28.5" startY="3.207122802734375" />
+      <Button fx:id="butonRezervarileMele" layoutX="39.0" layoutY="323.0" mnemonicParsing="false" onAction="#rezervarileMele" prefHeight="25.0" prefWidth="150.0" text="Rezervarile Mele" />
+   </children>
+</AnchorPane>
